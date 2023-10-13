@@ -9,12 +9,29 @@
 
 #include "macro.h"
 
+#ifndef HID_REQ_GET_REPORT
 #define HID_REQ_GET_REPORT   0x01
+#endif
+
+#ifndef HID_REQ_GET_IDLE
 #define HID_REQ_GET_IDLE     0x02
+#endif
+
+#ifndef HID_REQ_GET_PROTOCOL
 #define HID_REQ_GET_PROTOCOL 0x03
+#endif
+
+#ifndef HID_REQ_SET_REPORT
 #define HID_REQ_SET_REPORT   0x09
+#endif
+
+#ifndef HID_REQ_SET_IDLE
 #define HID_REQ_SET_IDLE     0x0a
+#endif
+
+#ifndef HID_REQ_SET_PROTOCOL
 #define HID_REQ_SET_PROTOCOL 0x0b
+#endif
 
 #define HID_REPORT_INPUT   0x01
 #define HID_REPORT_OUTPUT  0x02
